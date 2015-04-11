@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{8c4a7ba6-08b6-495e-b45b-f4bcb5264d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{ad69ad9c-ecdd-416d-96d3-1e2002ce1984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\head">
+      <UniqueIdentifier>{73c28314-4714-4d12-95ab-58648b7ae0f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\data\head\api.hpp">
+      <Filter>data\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\data\api">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\data\object">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\data\head\object.hpp">
+      <Filter>data\head</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\object.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
