@@ -6,10 +6,13 @@
 
 namespace data
 {
-    class object::holder
+    object::object()
     {
-    public:
-    };
+    }
+
+    object::~object()
+    {
+    }
 }
 
 // Содержит символы Unicode

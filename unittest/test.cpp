@@ -2,13 +2,15 @@
 
 #pragma once
 
-#include <data/object>
+#include <source/object/holder.hpp>
 
 namespace data
 {
     class object::holder
     {
     public:
+    private:
+
     };
 }
 

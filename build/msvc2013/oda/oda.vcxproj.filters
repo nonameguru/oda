@@ -10,6 +10,18 @@
     <Filter Include="data\head">
       <UniqueIdentifier>{73c28314-4714-4d12-95ab-58648b7ae0f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\decimal">
+      <UniqueIdentifier>{a7f01bb4-db38-41ee-a591-7cb4263ddeb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\query">
+      <UniqueIdentifier>{ac24a9ab-30a0-4904-a418-b5ca7891f6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\object">
+      <UniqueIdentifier>{1d6e6240-e762-48e0-bc2b-71a14b3fb14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\text">
+      <UniqueIdentifier>{11d6b8d4-65e0-4059-84f1-677948531bb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\data\head\api.hpp">
@@ -24,10 +36,75 @@
     <ClInclude Include="..\..\..\data\head\object.hpp">
       <Filter>data\head</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\data\head\decimal.hpp">
+      <Filter>data\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\data\head\query.hpp">
+      <Filter>data\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\data\head\text.hpp">
+      <Filter>data\head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\decimal\holder.hpp">
+      <Filter>source\decimal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\object\holder.hpp">
+      <Filter>source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\query\holder.hpp">
+      <Filter>source\query</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\query\instance.hpp">
+      <Filter>source\query</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\text\holder.hpp">
+      <Filter>source\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\text\instance.hpp">
+      <Filter>source\text</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\object.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\source\decimal.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\query.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\text.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\decimal\holder.cpp">
+      <Filter>source\decimal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\object\holder.cpp">
+      <Filter>source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\query\holder.cpp">
+      <Filter>source\query</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\query\instance.cpp">
+      <Filter>source\query</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\text\holder.cpp">
+      <Filter>source\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\text\instance.cpp">
+      <Filter>source\text</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\data\decimal">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\..\..\data\query">
+      <Filter>data</Filter>
+    </None>
+    <None Include="..\..\..\data\text">
+      <Filter>data</Filter>
+    </None>
   </ItemGroup>
 </Project>

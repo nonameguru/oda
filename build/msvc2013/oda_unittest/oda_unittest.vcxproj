@@ -10,6 +10,20 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\unittest\decimal\test.hpp" />
+    <ClInclude Include="..\..\..\unittest\object\test.hpp" />
+    <ClInclude Include="..\..\..\unittest\query\test.hpp" />
+    <ClInclude Include="..\..\..\unittest\test.hpp" />
+    <ClInclude Include="..\..\..\unittest\text\test.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\unittest\decimal\test.cpp" />
+    <ClCompile Include="..\..\..\unittest\object\test.cpp" />
+    <ClCompile Include="..\..\..\unittest\query\test.cpp" />
+    <ClCompile Include="..\..\..\unittest\test.cpp" />
+    <ClCompile Include="..\..\..\unittest\text\test.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5D074342-D67F-467A-A7E4-6988A5753035}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -75,8 +89,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
