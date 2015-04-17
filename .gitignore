@@ -31,3 +31,4 @@ Debug
 *.opensdf
 *.suo
 /.gitattributes
+/build/msvc2013/oda_unittest/*.user

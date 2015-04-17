@@ -1,18 +1,12 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
 
 #pragma once
 
-#include <data/object>
+#include <data/decimal>
 
 namespace data
 {
-    object::object()
-    {
-    }
-
-    object::~object()
+    decimal::decimal()
     {
     }
 }
-
-// Содержит символы Unicode

@@ -1,4 +1,6 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
+// object::holder :: base object value holder
+// базовый контейнер для хранения данных объекта по значению
 
 #pragma once
 
@@ -9,7 +11,6 @@ namespace data
     class object::holder
     {
     public:
+        holder();
     };
 }
-
-// Содержит символы Unicode

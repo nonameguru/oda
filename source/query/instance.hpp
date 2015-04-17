@@ -2,13 +2,14 @@
 
 #pragma once
 
-#include <data/object>
+#include <data/query>
 
 namespace data
 {
-    class object::holder
+    class query::instance
     {
     public:
+        instance();
     };
 }
 

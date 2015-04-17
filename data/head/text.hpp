@@ -1,5 +1,21 @@
-// Objective Data Access API
+// oda :: objective data access
+// text :: object for textual data
+// объект текстовых данных
 
-#include <data/head/object.hpp>
+#include <data/object>
 
-// Содержит символы Unicode
+namespace data
+{
+    class ODA_API text : public object
+    {
+    public:
+        text();
+
+    protected:
+        class holder;
+        class instance;
+
+    private:
+        holder* m_holder;
+    };
+}

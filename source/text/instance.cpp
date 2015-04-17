@@ -2,16 +2,11 @@
 
 #pragma once
 
-#include <source/object/holder.hpp>
+#include <source/text/instance.hpp>
 
 namespace data
 {
-    class object::holder
+    text::instance::instance()
     {
-    public:
-    private:
-
-    };
+    }
 }
-
-// Содержит символы Unicode

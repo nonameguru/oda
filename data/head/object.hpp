@@ -1,4 +1,6 @@
-﻿// Objective Data Access base class
+﻿// oda :: objective data access
+// object :: base class for other data objects
+// базовый класс всех прочих объектов данных
 
 #pragma once
 
@@ -20,5 +22,3 @@ namespace data
         char m_buffer[ODA_MAX_HOLDER_SIZE];
     };
 }
-
-// Содержит символы Unicode

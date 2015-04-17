@@ -1,5 +1,3 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
 
-#include <data/head/api.hpp>
-
-// Содержит символы Unicode
+#include <data/head/text.hpp>

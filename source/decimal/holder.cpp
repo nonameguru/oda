@@ -1,17 +1,15 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
+// object::holder :: base object value holder
+// базовый контейнер для хранения данных объекта по значению
 
 #pragma once
 
-#include <source/object/holder.hpp>
+#include <source/decimal/holder.hpp>
 
 namespace data
 {
-    class object::holder
+    decimal::holder::holder()
+        : m_integral(0), m_fractional(0), m_precision(0)
     {
-    public:
-    private:
-
-    };
+    }
 }
-
-// Содержит символы Unicode

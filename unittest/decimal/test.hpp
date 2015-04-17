@@ -1,17 +1,17 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
 
 #pragma once
 
-#include <source/object/holder.hpp>
+#include <unittest/test.hpp>
 
-namespace data
+namespace unittest
 {
-    class object::holder
+    namespace decimal
     {
-    public:
-    private:
-
-    };
+        class test : public unittest::test
+        {
+        public:
+            test();
+        };
+    }
 }
-
-// Содержит символы Unicode

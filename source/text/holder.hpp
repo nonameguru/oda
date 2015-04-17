@@ -1,15 +1,15 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
 
 #pragma once
 
-#include <data/object>
+#include <data/text>
+#include <source/object/holder.hpp>
 
 namespace data
 {
-    class object::holder
+    class text::holder : public object::holder
     {
     public:
+        holder();
     };
 }
-
-// Содержит символы Unicode

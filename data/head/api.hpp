@@ -1,4 +1,6 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
+// API forward declaration header
+// предварительное объявление API
 
 #pragma once
 
@@ -21,5 +23,3 @@ namespace data
     class text;
     class query;
 }
-
-// Содержит символы Unicode

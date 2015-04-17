@@ -1,4 +1,4 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
 
 #pragma once
 
@@ -6,12 +6,7 @@
 
 namespace data
 {
-    class object::holder
+    object::holder::holder()
     {
-    public:
-    private:
-
-    };
+    }
 }
-
-// Содержит символы Unicode

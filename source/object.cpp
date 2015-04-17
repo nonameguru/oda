@@ -1,4 +1,4 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
 
 #pragma once
 
@@ -14,5 +14,3 @@ namespace data
     {
     }
 }
-
-// Содержит символы Unicode

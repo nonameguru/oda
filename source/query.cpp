@@ -1,18 +1,12 @@
-﻿// Objective Data Access API
+﻿// oda :: objective data access
 
 #pragma once
 
-#include <data/object>
+#include <data/query>
 
 namespace data
 {
-    object::object()
-    {
-    }
-
-    object::~object()
+    query::query()
     {
     }
 }
-
-// Содержит символы Unicode

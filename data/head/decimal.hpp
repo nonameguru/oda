@@ -1,5 +1,26 @@
-// Objective Data Access API
+// oda :: objective data access
+// decimal :: decimal value with fixed point
+// десятичная дробь с фиксированной точностью
 
-#include <data/head/object.hpp>
+#pragma once
 
-// Содержит символы Unicode
+#include <data/object>
+#include <cstdint>
+
+namespace data
+{
+    class ODA_API decimal : public object
+    {
+    public:
+        decimal();
+
+        static const int32_t max_precision;
+        static const int32_t auto_precision;
+
+    protected:
+        class holder;
+
+    private:
+        holder* m_holder;
+    };
+}
