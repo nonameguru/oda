@@ -1,10 +1,10 @@
 ﻿// oda :: objective data access
 
-#include <unittest/test.hpp>
+#include <unittest/query/test_query.hpp>
 
 namespace unittest
 {
-    test::test()
+    test_query::test_query()
     {
     }
 }
