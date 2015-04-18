@@ -7,13 +7,15 @@
 
 namespace unittest
 {
+    class test_suite;
+
+    typedef std::function<void (test_suite::*)()> test_case;
+
     class test_suite
     {
     public:
         test_suite();
     
-        typedef std::function<void (test_suite::*)()> test_case;
-
         void add_test_case(test_case new_test_case);
 
     private:

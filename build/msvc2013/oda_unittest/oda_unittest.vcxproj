@@ -11,18 +11,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\unittest\decimal\test.hpp" />
-    <ClInclude Include="..\..\..\unittest\object\test.hpp" />
-    <ClInclude Include="..\..\..\unittest\query\test.hpp" />
-    <ClInclude Include="..\..\..\unittest\test.hpp" />
-    <ClInclude Include="..\..\..\unittest\text\test.hpp" />
+    <ClInclude Include="..\..\..\unittest\decimal\test_decimal.hpp" />
+    <ClInclude Include="..\..\..\unittest\object\test_object.hpp" />
+    <ClInclude Include="..\..\..\unittest\query\test_query.hpp" />
+    <ClInclude Include="..\..\..\unittest\test_suite.hpp" />
+    <ClInclude Include="..\..\..\unittest\text\test_text.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\unittest\decimal\test.cpp" />
-    <ClCompile Include="..\..\..\unittest\object\test.cpp" />
-    <ClCompile Include="..\..\..\unittest\query\test.cpp" />
-    <ClCompile Include="..\..\..\unittest\test.cpp" />
-    <ClCompile Include="..\..\..\unittest\text\test.cpp" />
+    <ClCompile Include="..\..\..\unittest\decimal\test_decimal.cpp" />
+    <ClCompile Include="..\..\..\unittest\object\test_object.cpp" />
+    <ClCompile Include="..\..\..\unittest\query\test_query.cpp" />
+    <ClCompile Include="..\..\..\unittest\test_suite.cpp" />
+    <ClCompile Include="..\..\..\unittest\text\test_text.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\oda\oda.vcxproj">
+      <Project>{c8f48e5c-798b-4275-90df-8b534430b10f}</Project>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5D074342-D67F-467A-A7E4-6988A5753035}</ProjectGuid>

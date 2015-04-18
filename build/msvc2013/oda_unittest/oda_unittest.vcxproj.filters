@@ -18,37 +18,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\unittest\test.hpp">
+    <ClInclude Include="..\..\..\unittest\test_suite.hpp">
       <Filter>unittest</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\unittest\decimal\test.hpp">
+    <ClInclude Include="..\..\..\unittest\decimal\test_decimal.hpp">
       <Filter>unittest\decimal</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\unittest\object\test.hpp">
+    <ClInclude Include="..\..\..\unittest\object\test_object.hpp">
       <Filter>unittest\object</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\unittest\query\test.hpp">
-      <Filter>unittest\query</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\unittest\text\test.hpp">
+    <ClInclude Include="..\..\..\unittest\text\test_text.hpp">
       <Filter>unittest\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\unittest\query\test_query.hpp">
+      <Filter>unittest\query</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\unittest\test.cpp">
+    <ClCompile Include="..\..\..\unittest\test_suite.cpp">
       <Filter>unittest</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\unittest\decimal\test.cpp">
+    <ClCompile Include="..\..\..\unittest\decimal\test_decimal.cpp">
       <Filter>unittest\decimal</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\unittest\object\test.cpp">
+    <ClCompile Include="..\..\..\unittest\object\test_object.cpp">
       <Filter>unittest\object</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\unittest\query\test.cpp">
-      <Filter>unittest\query</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\unittest\text\test.cpp">
+    <ClCompile Include="..\..\..\unittest\text\test_text.cpp">
       <Filter>unittest\text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\unittest\query\test_query.cpp">
+      <Filter>unittest\query</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
