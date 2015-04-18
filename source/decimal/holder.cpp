@@ -9,7 +9,9 @@
 namespace data
 {
     decimal::holder::holder()
-        : m_integral(0), m_fractional(0), m_precision(0)
+        : m_integral(0),
+          m_fractional(0),
+          m_precision(auto_precision)
     {
     }
 }

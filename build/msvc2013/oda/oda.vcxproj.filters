@@ -22,6 +22,9 @@
     <Filter Include="source\text">
       <UniqueIdentifier>{11d6b8d4-65e0-4059-84f1-677948531bb6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\tools">
+      <UniqueIdentifier>{14541429-08c9-467a-98b0-5f8148b7e753}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\data\head\api.hpp">
@@ -62,6 +65,12 @@
     </ClInclude>
     <ClInclude Include="..\..\..\source\text\instance.hpp">
       <Filter>source\text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\tools\copy_on_write.hpp">
+      <Filter>source\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\tools\nullable.hpp">
+      <Filter>source\tools</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

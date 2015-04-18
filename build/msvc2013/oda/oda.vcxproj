@@ -91,6 +91,8 @@
     <ClInclude Include="..\..\..\source\query\instance.hpp" />
     <ClInclude Include="..\..\..\source\text\holder.hpp" />
     <ClInclude Include="..\..\..\source\text\instance.hpp" />
+    <ClInclude Include="..\..\..\source\tools\copy_on_write.hpp" />
+    <ClInclude Include="..\..\..\source\tools\nullable.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\decimal.cpp" />
