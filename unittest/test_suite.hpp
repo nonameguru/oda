@@ -2,23 +2,18 @@
 
 #pragma once
 
-#include <deque>
-#include <functional>
+#include <unittest/test_base.hpp>
 
 namespace unittest
 {
-    class test_suite;
-
-    typedef std::function<void (test_suite::*)()> test_case;
-
-    class test_suite
+    class test_suite : public test_base
     {
     public:
-        test_suite();
-    
-        void add_test_case(test_case new_test_case);
+        static void add_test(test_base* new_test);
 
-    private:
-        std::deque<test_case> m_test_cases;
+        virtual void run();
+
+    protected:
+        test_suite();
     };
 }

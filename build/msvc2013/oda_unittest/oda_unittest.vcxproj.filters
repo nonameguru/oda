@@ -21,9 +21,6 @@
     <ClInclude Include="..\..\..\unittest\test_suite.hpp">
       <Filter>unittest</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\unittest\decimal\test_decimal.hpp">
-      <Filter>unittest\decimal</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\unittest\object\test_object.hpp">
       <Filter>unittest\object</Filter>
     </ClInclude>
@@ -32,6 +29,15 @@
     </ClInclude>
     <ClInclude Include="..\..\..\unittest\query\test_query.hpp">
       <Filter>unittest\query</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\unittest\test_runner.hpp">
+      <Filter>unittest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\unittest\test_case.hpp">
+      <Filter>unittest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\unittest\test_base.hpp">
+      <Filter>unittest</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -50,5 +56,13 @@
     <ClCompile Include="..\..\..\unittest\query\test_query.cpp">
       <Filter>unittest\query</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\unittest\test_runner.cpp">
+      <Filter>unittest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\unittest\test_check.hpp">
+      <Filter>unittest</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -3,6 +3,7 @@
 #pragma once
 
 #include <unittest/test_suite.hpp>
+#include <unittest/test_case.hpp>
 
 namespace unittest
 {

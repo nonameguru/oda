@@ -11,9 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\unittest\decimal\test_decimal.hpp" />
     <ClInclude Include="..\..\..\unittest\object\test_object.hpp" />
     <ClInclude Include="..\..\..\unittest\query\test_query.hpp" />
+    <ClInclude Include="..\..\..\unittest\test_base.hpp" />
+    <ClInclude Include="..\..\..\unittest\test_case.hpp" />
+    <ClInclude Include="..\..\..\unittest\test_runner.hpp" />
     <ClInclude Include="..\..\..\unittest\test_suite.hpp" />
     <ClInclude Include="..\..\..\unittest\text\test_text.hpp" />
   </ItemGroup>
@@ -21,6 +23,7 @@
     <ClCompile Include="..\..\..\unittest\decimal\test_decimal.cpp" />
     <ClCompile Include="..\..\..\unittest\object\test_object.cpp" />
     <ClCompile Include="..\..\..\unittest\query\test_query.cpp" />
+    <ClCompile Include="..\..\..\unittest\test_runner.cpp" />
     <ClCompile Include="..\..\..\unittest\test_suite.cpp" />
     <ClCompile Include="..\..\..\unittest\text\test_text.cpp" />
   </ItemGroup>
@@ -28,6 +31,9 @@
     <ProjectReference Include="..\oda\oda.vcxproj">
       <Project>{c8f48e5c-798b-4275-90df-8b534430b10f}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\unittest\test_check.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5D074342-D67F-467A-A7E4-6988A5753035}</ProjectGuid>
